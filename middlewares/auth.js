@@ -15,7 +15,6 @@ module.exports = {
           message: "Invalid Token"
         });
       }
-
     } catch(err) {
         res.status(403).json({
           message: "Invalid Token"
